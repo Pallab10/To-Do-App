@@ -1,0 +1,67 @@
+@media (min-width:576px) and (max-width: 767px){
+
+    #new-task-input {
+        min-width: 400px;
+    }
+
+    .task .content .text{
+        min-width: 350px;
+    }
+
+    .task .buttons{
+        display: flex;
+    }
+
+}@media (min-width:451px) and (max-width: 575px){
+
+    #new-task-input {
+        min-width: 300px;
+        margin-right: .5rem;
+    }
+
+    .task .content .text{
+        min-width: 250px;
+    }
+
+    .task .buttons{
+        display: flex;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    header h1{ 
+        font-size: 1.8rem;
+    }
+
+    #new-task-input {
+        min-width: 200px;
+        padding:.8rem;
+        border-radius: 1rem;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    #new-task-submit {
+        font-size: 14px;
+        padding: .4rem .5rem;
+    }
+
+    .task .content .text{
+        min-width: 250px;
+    }
+
+    .task .buttons{
+        display: flex;
+        margin-left: -55px;
+    }
+
+    .task .buttons button{
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+
+
